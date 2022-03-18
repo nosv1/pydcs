@@ -70,24 +70,20 @@ class Vehicle(Unit):
     def __init__(self, id=None, name: Optional[str] = None, _type="Sandbox"):
         super(Vehicle, self).__init__(id, name, _type)
         self.player_can_drive = False
-        self.transportable = {"randomTransportable": False}
 
     def load_from_dict(self, d):
         super(Vehicle, self).load_from_dict(d)
         self.player_can_drive = d["playerCanDrive"]
-        self.transportable = d["transportable"]
 
     def dict(self):
         d = super(Vehicle, self).dict()
         d["playerCanDrive"] = self.player_can_drive
-        d["transportable"] = self.transportable
         return d
 
 
 class Ship(Unit):
     def __init__(self, id=None, name: Optional[str] = None, _type=None):
         super(Ship, self).__init__(id, name, _type.id)
-        self.transportable = {"randomTransportable": False}
         self.frequency = 127500000
 
     def set_frequency(self, frequency: int) -> None:
@@ -101,12 +97,10 @@ class Ship(Unit):
     def load_from_dict(self, d):
         super(Ship, self).load_from_dict(d)
         self.frequency = d.get("frequency", self.frequency)
-        self.transportable = d["transportable"]
 
     def dict(self):
         d = super(Ship, self).dict()
         d["frequency"] = self.frequency
-        d["transportable"] = self.transportable
         return d
 
 
