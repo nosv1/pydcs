@@ -4662,8 +4662,8 @@ class Deir_ez_Zor(Airport):
     civilian = False
     slot_version = 2
 
-    def __init__(self, terrain: Terrain) -> None:
-        super().__init__(mapping.Point(25465.167969, 389747.03125, terrain), terrain)
+    def __init__(self) -> None:
+        super().__init__()
 
         self.runways.append(Runway(100))
         self.parking_slots.append(ParkingSlot(
@@ -6021,7 +6021,7 @@ class Syria(Terrain):
     assert (len(temperature) == 12)
 
     def __init__(self):
-        super(Syria, self).__init__("Syria")
+        super().__init__("Syria")
         self.bullseye_blue = {"x": 0, "y": 0}
         self.bullseye_red = {"x": 0, "y": 0}
 
