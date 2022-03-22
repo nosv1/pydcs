@@ -880,6 +880,7 @@ class USA(Country):
             M30_CC = vehicles.Unarmed.M30_CC
             CCKW_353 = vehicles.Unarmed.CCKW_353
             Willys_MB = vehicles.Unarmed.Willys_MB
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
 
         class Armor:
@@ -898,7 +899,6 @@ class USA(Country):
             TPZ = vehicles.Armor.TPZ
             M10_GMC = vehicles.Armor.M10_GMC
             M8_Greyhound = vehicles.Armor.M8_Greyhound
-            M4_Tractor = vehicles.Armor.M4_Tractor
             M4_Sherman = vehicles.Armor.M4_Sherman
             Cromwell_IV = vehicles.Armor.Cromwell_IV
             M4A4_Sherman_FF = vehicles.Armor.M4A4_Sherman_FF
@@ -1293,6 +1293,7 @@ class Turkey(Country):
             HEMTT_TFFT = vehicles.Unarmed.HEMTT_TFFT
             Predator_GCS = vehicles.Unarmed.Predator_GCS
             Predator_TrojanSpirit = vehicles.Unarmed.Predator_TrojanSpirit
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
             Land_Rover_101_FC = vehicles.Unarmed.Land_Rover_101_FC
             Land_Rover_109_S3 = vehicles.Unarmed.Land_Rover_109_S3
 
@@ -1304,7 +1305,6 @@ class Turkey(Country):
             BTR_80 = vehicles.Armor.BTR_80
             Leopard1A3 = vehicles.Armor.Leopard1A3
             Leopard_2 = vehicles.Armor.Leopard_2
-            M4_Tractor = vehicles.Armor.M4_Tractor
             Leopard_2A4_trs = vehicles.Armor.Leopard_2A4_trs
 
         class Locomotive:
@@ -1626,6 +1626,7 @@ class UK(Country):
             Willys_MB = vehicles.Unarmed.Willys_MB
             Land_Rover_101_FC = vehicles.Unarmed.Land_Rover_101_FC
             Land_Rover_109_S3 = vehicles.Unarmed.Land_Rover_109_S3
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
             CCKW_353 = vehicles.Unarmed.CCKW_353
             M30_CC = vehicles.Unarmed.M30_CC
 
@@ -1641,7 +1642,6 @@ class UK(Country):
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
             Tetrarch = vehicles.Armor.Tetrarch
             Daimler_AC = vehicles.Armor.Daimler_AC
-            M4_Tractor = vehicles.Armor.M4_Tractor
             Chieftain_mk3 = vehicles.Armor.Chieftain_mk3
             M4_Sherman = vehicles.Armor.M4_Sherman
             M4A4_Sherman_FF = vehicles.Armor.M4A4_Sherman_FF
@@ -1959,6 +1959,7 @@ class France(Country):
             Predator_GCS = vehicles.Unarmed.Predator_GCS
             Predator_TrojanSpirit = vehicles.Unarmed.Predator_TrojanSpirit
             CCKW_353 = vehicles.Unarmed.CCKW_353
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             Willys_MB = vehicles.Unarmed.Willys_MB
             M30_CC = vehicles.Unarmed.M30_CC
@@ -1967,7 +1968,6 @@ class France(Country):
             Leclerc = vehicles.Armor.Leclerc
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
             M10_GMC = vehicles.Armor.M10_GMC
-            M4_Tractor = vehicles.Armor.M4_Tractor
             VAB_Mephisto = vehicles.Armor.VAB_Mephisto
             M4_Sherman = vehicles.Armor.M4_Sherman
             Cromwell_IV = vehicles.Armor.Cromwell_IV
@@ -2831,6 +2831,7 @@ class USAFAggressors(Country):
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             CCKW_353 = vehicles.Unarmed.CCKW_353
             M30_CC = vehicles.Unarmed.M30_CC
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
             Hummer = vehicles.Unarmed.Hummer
             KrAZ6322 = vehicles.Unarmed.KrAZ6322
             GAZ_3308 = vehicles.Unarmed.GAZ_3308
@@ -2879,7 +2880,6 @@ class USAFAggressors(Country):
             Churchill_VII = vehicles.Armor.Churchill_VII
             Daimler_AC = vehicles.Armor.Daimler_AC
             M8_Greyhound = vehicles.Armor.M8_Greyhound
-            M4_Tractor = vehicles.Armor.M4_Tractor
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M_113 = vehicles.Armor.M_113
             TPZ = vehicles.Armor.TPZ
@@ -3396,6 +3396,7 @@ class Canada(Country):
             M_818 = vehicles.Unarmed.M_818
             M978_HEMTT_Tanker = vehicles.Unarmed.M978_HEMTT_Tanker
             HEMTT_TFFT = vehicles.Unarmed.HEMTT_TFFT
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             CCKW_353 = vehicles.Unarmed.CCKW_353
             Willys_MB = vehicles.Unarmed.Willys_MB
@@ -3409,7 +3410,6 @@ class Canada(Country):
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
             Daimler_AC = vehicles.Armor.Daimler_AC
-            M4_Tractor = vehicles.Armor.M4_Tractor
             Leopard_2A4 = vehicles.Armor.Leopard_2A4
             M4_Sherman = vehicles.Armor.M4_Sherman
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
@@ -3728,6 +3728,7 @@ class Spain(Country):
             M_818 = vehicles.Unarmed.M_818
             Predator_GCS = vehicles.Unarmed.Predator_GCS
             Predator_TrojanSpirit = vehicles.Unarmed.Predator_TrojanSpirit
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
 
         class Armor:
             M_113 = vehicles.Armor.M_113
@@ -3736,7 +3737,6 @@ class Spain(Country):
             AAV7 = vehicles.Armor.AAV7
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
-            M4_Tractor = vehicles.Armor.M4_Tractor
             Leopard_2A4 = vehicles.Armor.Leopard_2A4
 
         class Locomotive:
@@ -4059,6 +4059,7 @@ class TheNetherlands(Country):
             M_818 = vehicles.Unarmed.M_818
             Predator_GCS = vehicles.Unarmed.Predator_GCS
             Predator_TrojanSpirit = vehicles.Unarmed.Predator_TrojanSpirit
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             CCKW_353 = vehicles.Unarmed.CCKW_353
             Willys_MB = vehicles.Unarmed.Willys_MB
@@ -4072,7 +4073,6 @@ class TheNetherlands(Country):
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
-            M4_Tractor = vehicles.Armor.M4_Tractor
             Leopard_2A5 = vehicles.Armor.Leopard_2A5
             Leopard_2A4 = vehicles.Armor.Leopard_2A4
             M4_Sherman = vehicles.Armor.M4_Sherman
@@ -4396,6 +4396,7 @@ class Belgium(Country):
         class Unarmed:
             Hummer = vehicles.Unarmed.Hummer
             M_818 = vehicles.Unarmed.M_818
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             CCKW_353 = vehicles.Unarmed.CCKW_353
             Willys_MB = vehicles.Unarmed.Willys_MB
@@ -4406,7 +4407,6 @@ class Belgium(Country):
             Leopard1A3 = vehicles.Armor.Leopard1A3
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
             Daimler_AC = vehicles.Armor.Daimler_AC
-            M4_Tractor = vehicles.Armor.M4_Tractor
             M4_Sherman = vehicles.Armor.M4_Sherman
             Cromwell_IV = vehicles.Armor.Cromwell_IV
             M4A4_Sherman_FF = vehicles.Armor.M4A4_Sherman_FF
@@ -4716,6 +4716,7 @@ class Norway(Country):
         class Unarmed:
             Hummer = vehicles.Unarmed.Hummer
             M_818 = vehicles.Unarmed.M_818
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
 
         class Armor:
             M_113 = vehicles.Armor.M_113
@@ -4723,7 +4724,6 @@ class Norway(Country):
             Leopard1A3 = vehicles.Armor.Leopard1A3
             TPZ = vehicles.Armor.TPZ
             Leopard_2A4 = vehicles.Armor.Leopard_2A4
-            M4_Tractor = vehicles.Armor.M4_Tractor
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -5019,6 +5019,7 @@ class Denmark(Country):
         class Unarmed:
             Hummer = vehicles.Unarmed.Hummer
             M_818 = vehicles.Unarmed.M_818
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
 
         class Armor:
             M_113 = vehicles.Armor.M_113
@@ -5026,7 +5027,6 @@ class Denmark(Country):
             Leopard_2 = vehicles.Armor.Leopard_2
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
-            M4_Tractor = vehicles.Armor.M4_Tractor
             Leopard_2A5 = vehicles.Armor.Leopard_2A5
 
         class Locomotive:
@@ -6745,13 +6745,13 @@ class Italy(Country):
             HEMTT_TFFT = vehicles.Unarmed.HEMTT_TFFT
             Predator_GCS = vehicles.Unarmed.Predator_GCS
             Predator_TrojanSpirit = vehicles.Unarmed.Predator_TrojanSpirit
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
 
         class Armor:
             M_113 = vehicles.Armor.M_113
             AAV7 = vehicles.Armor.AAV7
             Leopard1A3 = vehicles.Armor.Leopard1A3
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
-            M4_Tractor = vehicles.Armor.M4_Tractor
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -7061,6 +7061,7 @@ class Australia(Country):
             CCKW_353 = vehicles.Unarmed.CCKW_353
             Willys_MB = vehicles.Unarmed.Willys_MB
             M30_CC = vehicles.Unarmed.M30_CC
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
 
         class Armor:
             M_1_Abrams = vehicles.Armor.M_1_Abrams
@@ -7077,7 +7078,6 @@ class Australia(Country):
             Tetrarch = vehicles.Armor.Tetrarch
             M10_GMC = vehicles.Armor.M10_GMC
             M8_Greyhound = vehicles.Armor.M8_Greyhound
-            M4_Tractor = vehicles.Armor.M4_Tractor
 
         class Locomotive:
             ES44AH = vehicles.Locomotive.ES44AH
@@ -7649,13 +7649,13 @@ class Austria(Country):
 
         class Unarmed:
             M_818 = vehicles.Unarmed.M_818
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
 
         class Armor:
             Cromwell_IV = vehicles.Armor.Cromwell_IV
             Centaur_IV = vehicles.Armor.Centaur_IV
             M_60 = vehicles.Armor.M_60
             M8_Greyhound = vehicles.Armor.M8_Greyhound
-            M4_Tractor = vehicles.Armor.M4_Tractor
             Leopard_2A4 = vehicles.Armor.Leopard_2A4
 
         class Locomotive:
@@ -8621,6 +8621,7 @@ class CzechRepublic(Country):
             CCKW_353 = vehicles.Unarmed.CCKW_353
             Willys_MB = vehicles.Unarmed.Willys_MB
             M30_CC = vehicles.Unarmed.M30_CC
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
 
         class Armor:
             BRDM_2 = vehicles.Armor.BRDM_2
@@ -8638,7 +8639,6 @@ class CzechRepublic(Country):
             Tetrarch = vehicles.Armor.Tetrarch
             M10_GMC = vehicles.Armor.M10_GMC
             M8_Greyhound = vehicles.Armor.M8_Greyhound
-            M4_Tractor = vehicles.Armor.M4_Tractor
 
         class MissilesSS:
             Scud_B = vehicles.MissilesSS.Scud_B
@@ -9173,11 +9173,11 @@ class Croatia(Country):
 
         class Unarmed:
             Ural_375 = vehicles.Unarmed.Ural_375
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
 
         class Armor:
             BRDM_2 = vehicles.Armor.BRDM_2
             T_55 = vehicles.Armor.T_55
-            M4_Tractor = vehicles.Armor.M4_Tractor
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -10175,6 +10175,7 @@ class Greece(Country):
             HEMTT_TFFT = vehicles.Unarmed.HEMTT_TFFT
             M978_HEMTT_Tanker = vehicles.Unarmed.M978_HEMTT_Tanker
             Trolley_bus = vehicles.Unarmed.Trolley_bus
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
 
         class Armor:
             BMP_1 = vehicles.Armor.BMP_1
@@ -10188,7 +10189,6 @@ class Greece(Country):
             Centaur_IV = vehicles.Armor.Centaur_IV
             M_60 = vehicles.Armor.M_60
             M8_Greyhound = vehicles.Armor.M8_Greyhound
-            M4_Tractor = vehicles.Armor.M4_Tractor
             Leopard_2A4 = vehicles.Armor.Leopard_2A4
 
         class Locomotive:
@@ -13220,6 +13220,7 @@ class Poland(Country):
             CCKW_353 = vehicles.Unarmed.CCKW_353
             Willys_MB = vehicles.Unarmed.Willys_MB
             M30_CC = vehicles.Unarmed.M30_CC
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
 
         class Armor:
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
@@ -13244,7 +13245,6 @@ class Poland(Country):
             Tetrarch = vehicles.Armor.Tetrarch
             M10_GMC = vehicles.Armor.M10_GMC
             M8_Greyhound = vehicles.Armor.M8_Greyhound
-            M4_Tractor = vehicles.Armor.M4_Tractor
 
         class MissilesSS:
             Scud_B = vehicles.MissilesSS.Scud_B
@@ -14868,13 +14868,13 @@ class SouthKorea(Country):
             M_818 = vehicles.Unarmed.M_818
             HEMTT_TFFT = vehicles.Unarmed.HEMTT_TFFT
             M978_HEMTT_Tanker = vehicles.Unarmed.M978_HEMTT_Tanker
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
 
         class Armor:
             AAV7 = vehicles.Armor.AAV7
             M_113 = vehicles.Armor.M_113
             BMP_3 = vehicles.Armor.BMP_3
             T_80UD = vehicles.Armor.T_80UD
-            M4_Tractor = vehicles.Armor.M4_Tractor
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -21386,6 +21386,7 @@ class Yugoslavia(Country):
             CCKW_353 = vehicles.Unarmed.CCKW_353
             Willys_MB = vehicles.Unarmed.Willys_MB
             M30_CC = vehicles.Unarmed.M30_CC
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
 
         class Armor:
             BRDM_2 = vehicles.Armor.BRDM_2
@@ -21401,7 +21402,6 @@ class Yugoslavia(Country):
             Tetrarch = vehicles.Armor.Tetrarch
             M10_GMC = vehicles.Armor.M10_GMC
             M8_Greyhound = vehicles.Armor.M8_Greyhound
-            M4_Tractor = vehicles.Armor.M4_Tractor
 
         class MissilesSS:
             Scud_B = vehicles.MissilesSS.Scud_B
@@ -21680,6 +21680,7 @@ class USSR(Country):
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             CCKW_353 = vehicles.Unarmed.CCKW_353
             M30_CC = vehicles.Unarmed.M30_CC
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
 
         class Armor:
             BMD_1 = vehicles.Armor.BMD_1
@@ -21704,7 +21705,6 @@ class USSR(Country):
             Churchill_VII = vehicles.Armor.Churchill_VII
             Daimler_AC = vehicles.Armor.Daimler_AC
             M8_Greyhound = vehicles.Armor.M8_Greyhound
-            M4_Tractor = vehicles.Armor.M4_Tractor
 
         class MissilesSS:
             Scud_B = vehicles.MissilesSS.Scud_B
@@ -24496,6 +24496,7 @@ class Portugal(Country):
 
         class Unarmed:
             M_818 = vehicles.Unarmed.M_818
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
 
         class Armor:
             Leopard_2 = vehicles.Armor.Leopard_2
@@ -24504,7 +24505,6 @@ class Portugal(Country):
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
             Cromwell_IV = vehicles.Armor.Cromwell_IV
             Centaur_IV = vehicles.Armor.Centaur_IV
-            M4_Tractor = vehicles.Armor.M4_Tractor
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -25565,6 +25565,7 @@ class CombinedJointTaskForcesBlue(Country):
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             CCKW_353 = vehicles.Unarmed.CCKW_353
             M30_CC = vehicles.Unarmed.M30_CC
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
             Hummer = vehicles.Unarmed.Hummer
             KrAZ6322 = vehicles.Unarmed.KrAZ6322
             GAZ_3308 = vehicles.Unarmed.GAZ_3308
@@ -25613,7 +25614,6 @@ class CombinedJointTaskForcesBlue(Country):
             Churchill_VII = vehicles.Armor.Churchill_VII
             Daimler_AC = vehicles.Armor.Daimler_AC
             M8_Greyhound = vehicles.Armor.M8_Greyhound
-            M4_Tractor = vehicles.Armor.M4_Tractor
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M_113 = vehicles.Armor.M_113
             TPZ = vehicles.Armor.TPZ
@@ -26278,6 +26278,7 @@ class CombinedJointTaskForcesRed(Country):
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             CCKW_353 = vehicles.Unarmed.CCKW_353
             M30_CC = vehicles.Unarmed.M30_CC
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
             Hummer = vehicles.Unarmed.Hummer
             KrAZ6322 = vehicles.Unarmed.KrAZ6322
             GAZ_3308 = vehicles.Unarmed.GAZ_3308
@@ -26326,7 +26327,6 @@ class CombinedJointTaskForcesRed(Country):
             Churchill_VII = vehicles.Armor.Churchill_VII
             Daimler_AC = vehicles.Armor.Daimler_AC
             M8_Greyhound = vehicles.Armor.M8_Greyhound
-            M4_Tractor = vehicles.Armor.M4_Tractor
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M_113 = vehicles.Armor.M_113
             TPZ = vehicles.Armor.TPZ
@@ -26991,6 +26991,7 @@ class UnitedNationsPeacekeepers(Country):
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             CCKW_353 = vehicles.Unarmed.CCKW_353
             M30_CC = vehicles.Unarmed.M30_CC
+            M4_Tractor = vehicles.Unarmed.M4_Tractor
             Hummer = vehicles.Unarmed.Hummer
             KrAZ6322 = vehicles.Unarmed.KrAZ6322
             GAZ_3308 = vehicles.Unarmed.GAZ_3308
@@ -27039,7 +27040,6 @@ class UnitedNationsPeacekeepers(Country):
             Churchill_VII = vehicles.Armor.Churchill_VII
             Daimler_AC = vehicles.Armor.Daimler_AC
             M8_Greyhound = vehicles.Armor.M8_Greyhound
-            M4_Tractor = vehicles.Armor.M4_Tractor
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M_113 = vehicles.Armor.M_113
             TPZ = vehicles.Armor.TPZ
