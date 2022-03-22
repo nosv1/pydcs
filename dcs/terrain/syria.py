@@ -4657,6 +4657,7 @@ class Gazipasa(Airport):
 class Deir_ez_Zor(Airport):
     id = 42
     name = "Deir ez-Zor"
+    position = mapping.Point(25465.167969, 389747.03125)
     tacan = None
     unit_zones = []
     civilian = False
@@ -5354,6 +5355,7 @@ class Naqoura(Airport):
 class H3(Airport):
     id = 53
     name = "H3"
+    position = mapping.Point(-235405.664063, 352522.65625)
     tacan = None
     unit_zones = []
     civilian = False
@@ -5573,6 +5575,7 @@ class H3(Airport):
 class H3_Northwest(Airport):
     id = 54
     name = "H3 Northwest"
+    position = mapping.Point(-220000.35156, 338483.561903)
     tacan = None
     unit_zones = []
     civilian = False
@@ -5674,6 +5677,7 @@ class H3_Northwest(Airport):
 class H3_Southwest(Airport):
     id = 55
     name = "H3 Southwest"
+    position = mapping.Point(-256859.445313, 339219.1875)
     tacan = None
     unit_zones = []
     civilian = False
@@ -5778,6 +5782,7 @@ class H3_Southwest(Airport):
 class Ruwayshid(Airport):
     id = 57
     name = "Ruwayshid"
+    position = mapping.Point(-294533.859375, 295074.640625)
     tacan = None
     unit_zones = []
     civilian = False
@@ -5864,6 +5869,7 @@ class Ruwayshid(Airport):
 class Sanliurfa(Airport):
     id = 58
     name = "Sanliurfa"
+    position = mapping.Point(264719.125, 273812.4375)
     tacan = None
     unit_zones = []
     civilian = True
@@ -5911,6 +5917,7 @@ class Sanliurfa(Airport):
 class Kharab_Ishk(Airport):
     id = 59
     name = "Kharab Ishk"
+    position = mapping.Point(164825.84375, 245883.84375)
     tacan = None
     unit_zones = []
     civilian = False
@@ -5957,6 +5964,7 @@ class Kharab_Ishk(Airport):
 class Tal_Siman(Airport):
     id = 60
     name = "Tal Siman"
+    position = mapping.Point(133191.875, 276361.453125)
     tacan = None
     unit_zones = []
     civilian = False
@@ -5983,6 +5991,7 @@ class Tal_Siman(Airport):
 class At_Tanf(Airport):
     id = 63
     name = "At Tanf"
+    position = mapping.Point(-172365.28125, 247031.90625)
     tacan = None
     unit_zones = []
     civilian = False
