@@ -1645,12 +1645,57 @@ class OptChaffFlareUsing(Option):
 
 
 class OptFormation(Option):
+    """Formations changed data structures during DCS development.  Use the static methods to build the desired formation."""
+
     Key = 5
 
-    # TODO missing option enums
+    class Values(IntEnum):
+        """Values are for Rotary or Fixed Wing only.  Rotary values are preceded by Rotary."""
+        # RotaryWedge has no VariantIndex or zInverse field.
+        RotaryWedge = 8
+        RotaryEchelonRightSmall = 589825
+        RotaryEchelonRightMedium = 583826
+        RotaryEchelonRightLarge = 589827
+        RotaryEchelonLeftSmall = 590081
+        RotaryEchelonLeftMedium = 590082
+        RotaryEchelonLeftLarge = 590083
+        RotaryFrontRightSmall = 655361
+        RotaryFrontRightMedium = 655362
+        RotaryFrontLeftSmall = 655617
+        RotaryFrontLeftMedium = 655618
+        # RotaryColumn has no VariantIndex or zInverse field.
+        RotaryColumn = 720896
 
-    def __init__(self, value=None):
-        super(OptFormation, self).__init__(value)
+        # Aircraft Values below
+        LineAbreastClose = 65537
+        LineAbreastOpen = 65538
+        LineAbreastGroupClose = 65539
+        TrailClose = 131073
+        TrailOpen = 131074
+        TrailGroupClose = 131075
+        WedgeClose = 196609
+        WedgeOpen = 196610
+        WedgeGroupClose = 196611
+        EchelonRightClose = 262145
+        EchelonRightOpen = 262146
+        EchelonRightGroupClose = 262147
+        EchelonLeftClose = 327681
+        EchelonLeftOpen = 327682
+        EchelonLeftGroupClose = 327683
+        FingerFourClose = 393217
+        FingerFourOpen = 393218
+        FingerFourGroupClose = 393219
+        SpreadFourClose = 458753
+        SpreadFourOpen = 458754
+        SpreadFourGroupClose = 458755
+        WW2_BomberElementClose = 786433
+        WW2_BomberElementOpen = 786434
+        # WW2: Bomber Height Seperation has no VariantIndex field.
+        WW2_BomberElementHeightSeperation = 851968
+        WW2_FighterVicClose = 917505
+        WW2_FighterVicOpen = 917506
+        ModernBomberFormationClose = 1114113
+        ModernBomberFormationOpen = 1114114
 
 
 class OptRTBOnBingoFuel(Option):
